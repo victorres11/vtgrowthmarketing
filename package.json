@@ -1,6 +1,6 @@
-// WARNING: BE CAREFUL, VIC - gulpfile.js was originally in /public but I moved it up a directory so that
-// I could get others to make changes to files without having to run gulp locally. If something doesn't work here,
-// check the original functionality in /public/gulpfile.js
+/* WARNING: BE CAREFUL, VIC - gulpfile.js was originally in /public but I moved it up a directory so that
+ I could get others to make changes to files without having to run gulp locally. If something doesn't work here,
+ check the original functionality in /public/gulpfile.js*/
 
 {
   "name": "react",
