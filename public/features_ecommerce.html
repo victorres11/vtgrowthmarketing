@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>FoxGrowth</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <link rel="shortcut icon" href="images/favicon.ico">
 
@@ -20,8 +20,8 @@
   <![endif]-->
 </head>
 <body>
-  <div class="navbar navbar-dark bg-transparent navbar-expand-lg" role="banner">
-    <div class="container no-override">
+  <div class="navbar navbar-dark navbar-expand-lg" role="banner">
+    <div class="container">
       <a class="navbar-brand" href="index.html">
         <img src="images/logo-light.png" class="mr-2 img-fluid" />
         FoxGrowth
@@ -33,7 +33,7 @@
 
       <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse">
         <ul class="navbar-nav">
-          <!-- <li class="nav-item dropdown">
+          <li class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
               Home Pages
               <i class="ion-chevron-down"></i>
@@ -43,18 +43,18 @@
               <a class="dropdown-item" href="index2.html">Home 2 (Slider)</a>
               <a class="dropdown-item" href="index3.html">Home 3 (Off-canvas menu)</a>
             </div>
-          </li> -->
-          <li class="nav-item dropdown">
+          </li>
+          <li class="nav-item active dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
               Showcase
               <i class="ion-chevron-down"></i>
             </a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="features_b2b.html">B2B Bundle</a>
-              <a class="dropdown-item" href="features_ecommerce.html">Ecommerce Bundle</a>
+              <a class="dropdown-item" href="features.html">Features</a>
+              <a class="dropdown-item" href="services.html">Services</a>
             </div>
           </li>
-          <!-- <li class="nav-item dropdown">
+          <li class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
               Pricing
               <i class="ion-chevron-down"></i>
@@ -63,8 +63,8 @@
               <a class="dropdown-item" href="pricing.html">Pricing charts</a>
               <a class="dropdown-item" href="charts.html">Comparison tables</a>
             </div>
-          </li> -->
-          <!-- <li class="nav-item dropdown">
+          </li>
+          <li class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
               More pages
               <i class="ion-chevron-down"></i>
@@ -86,8 +86,8 @@
               <a class="dropdown-item" href="signup-rotate.html">Sign Up Miscellaneous</a>
               <a class="dropdown-item" href="404.html">404 Page</a>
             </div>
-          </li> -->
-          <!-- <li class ="nav-item dropdown dropdown-extend">
+          </li>
+          <li class="nav-item dropdown dropdown-extend">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
               Components
               <i class="ion-chevron-down"></i>
@@ -126,7 +126,7 @@
                 </div>
               </div>
             </div>
-          </li> -->
+          </li>
           <li class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
               Blog
@@ -139,43 +139,144 @@
               <a class="dropdown-item" href="blogpost.html">Blog Post</a>
             </div>
           </li>
-          <!-- <li class="nav-item">
+          <li class="nav-item">
             <a href="docs/intro.html" class="nav-link nav-link--rounded">Docs</a>
-          </li> -->
+          </li>
         </ul>
       </div>
     </div>
   </div>
 
-  <div class="index-hero">
+  <div class="features-tabs-section" >
     <div class="container">
-      <h1 class="hero-text customFadeInDown">
-        FoxGrowth Agency
-      </h1>
-      <p class="sub-text customFadeInDown">
-        Build the right modern marketing stack, the first time.
-      </p>
-      <div class="cta customFadeInDown">
-        <a href="features.html" class="button-outline">What We Do</a>
-        <a href="contactus.html" class="btn-shadow btn-shadow-success btn-shadow-lg">Contact Us</a>
+      <div class="header">
+        <h3>B2B SaaS Bundle</h3>
+        <p>If you’re a business to business software as a service business, here is a number of tools that’ll essentially give you a commanding head start at becoming your own VP of Growth.</p>
       </div>
-      <img src="images/index-device.png" class="device d-none d-lg-block">
+
+      <div class="tabs-wrapper">
+        <ul class="nav nav-tabs justify-content-center" id="feature-tabs">
+          <li>
+            <a href="#customerDataLayer" class="active" data-toggle="tab">Customer Data Layer</a>
+          </li>
+          <li>
+            <a href="#email" data-toggle="tab">Email</a>
+          </li>
+          <li>
+            <a href="#attribution" data-toggle="tab">Attribution</a>
+          </li>
+          <li>
+            <a href="#abTesting" data-toggle="tab">A/B Testing</a>
+          </li>
+          <li>
+            <a href="#onsite" data-toggle="tab">Onsite</a>
+          </li>
+          <li>
+            <a href="#enrichment" data-toggle="tab">Enrichment</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="customerDataLayer">
+            <div class="row">
+              <div class="col-lg-6 order-lg-2 image">
+                <img src="images/segmentLogo.png" class="img-fluid" alt="pic2" />
+              </div>
+              <div class="col-lg-6 order-lg-1 info">
+                <h4>Segment</h4>
+                <p>
+                    We always recommend Segment.com as your customer data layer. A customer data layer allows you to onboard your data and export it to various tools. Whereas ecommerce has easy to use platforms like Shopify, that allow one click installations of Segment, with SaaS you typically have to set it up yourself. Fortunately, we’ve here to help.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="email">
+            <div class="row">
+              <div class="col-lg-6 image">
+                <img src="images/customerioLogo.png" class="img-fluid" alt="pic1" />
+              </div>
+              <div class="col-lg-6 info">
+                <h4>Customer.io</h4>
+                <p>
+                  If you’re a SaaS business you’re going to be blown away by customer.io. It is a comprehensive email automation platform that works natively with Segment. You can do everything from welcome emails, to sales rep nurture sequences, to product and growth emails. All in one tool.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="attribution">
+            <div class="row">
+              <div class="col-lg-6 order-lg-2 image">
+                <img src="images/attributionLogo.png" class="img-fluid" alt="pic3" />
+              </div>
+              <div class="col-lg-6 order-lg-1 info">
+                <h4>Attribution App</h4>
+                <p>
+                  <a href="http://attributionapp.com">Attribution App</a> is an underrated and insanely insightful tool.
+                </p>
+                <p>
+                  Connect it to Segment, and connect your online ads accounts, and it’ll show you multi-touch attribution for how all your marketing activities play together. It’ll show you how much revenue your emails actually drive, and all manner of other valuable insights.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="abTesting">
+            <div class="row">
+              <div class="col-lg-6 image">
+                <img src="images/vwoLogo.png" class="img-fluid" alt="pic4" />
+              </div>
+              <div class="col-lg-6 info">
+                <h4>Visual Website Optimizer</h4>
+                <p>
+                  <a href="http://vwo.com">Visual Website Optimizer (VWO)</a> is a comprehensive A/B testing tool. Because it changes the page layout, it cannot be configured via Segment - you have to place the pixel yourself. We’ve found VWO to be the easiest to use and most affordable AB testing tool on the market today.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="onsite">
+            <div class="row">
+              <div class="col-lg-6 order-lg-2 image">
+                <img src="images/appcuesLogo.png" class="img-fluid" alt="pic4" />
+              </div>
+              <div class="col-lg-6 order-lg-1 info">
+                <h4>AppCues</h4>
+                <p>
+                  <a href="http://www.appcues.com">AppCues</a> is an exceptional onsite tool for SaaS products. Enable this tool via Segment and you can not only serve marketing messages within application, but you can specifically target them based on all of your Segment data. It’s like email marketing automation but onsite, and thus 10x the engagement.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="enrichment">
+            <div class="row">
+              <div class="col-lg-6 image">
+                <img src="images/clearbitLogo.png" class="img-fluid" alt="pic4" />
+              </div>
+              <div class="col-lg-6 info">
+                <h4>Clearbit</h4>
+                <p>
+                  Clearbit is an amazing service that gives you even more data about the users you already have. For example, it’ll tell you the name of the company they work for, the company size, the persons job title, and so on. Why does this matter? because this data rolls back into Segment and then can be inserted into any of the tools mentioned above!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="features-section">
+  <!-- <div class="features-section">
     <div class="container">
       <div class="header text-center">
-        <h2>Your Lifecycle Growth Marketing Experts</h2>
-        <p class="mt-3">You built the product, we help grow it.</p>
+        <h2>Need an easy way to customize your site?</h2>
+        <p class="mt-3">React is perfect for novice developers and experts alike.</p>
       </div>
       <div class="feature">
         <div class="row">
           <div class="col-md-6">
             <div class="info">
-              <h4 class="mt-lg-5">Modern Marketing Stack Experts</h4>
+              <h4 class="mt-lg-5">You don't need to have great technical experience to use your product.</h4>
               <p>
-                FoxGrowth is your growth marketing expert. We focus on automated lifecycle programs that help businesses like AdRoll, JUUL and Appcues generate leads and effectively grow their businesses.
+                Whether you want to fill this paragraph with some text like I'm doing right now, this place
+                is perfect to describe some features or anything you want - React has a complete solution for you.
               </p>
             </div>
           </div>
@@ -189,16 +290,14 @@
         <div class="row">
           <div class="col-md-6 order-md-2">
             <div class="info">
-              <h4 class="mt-lg-4">We Handle All The Heavy Lifting</h4>
+              <h4 class="mt-lg-4">A fully featured well design template that works.</h4>
               <p>
-                No need to pull away your in-house engineers, designers, and copy writers.
+                You have complete control over the look & feel of your website, we offer the best quality so you
+                take your site up and running in no time.
               </p>
               <p>
-                We'll design your data schema in a simple and powerful way
-                that will be utilised for everything from reporting, to lead routing, to future marketing activities.
-              </p>
-              <p>
-                We handle copy, asset generation, and e-mail templates ourselves.
+                Write some text here to explain the features of your site or application, it
+                has lots of uses.
               </p>
             </div>
           </div>
@@ -207,130 +306,67 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
-
-  <div class="pricing-dark-section">
-    <div class="container">
-      <div class="header text-center">
-        <h3>Growth Bundles Available</h3>
-        <!-- <p>All plans include a 7-day free trial</p> -->
-      </div>
-
-      <div class="charts">
+      <div class="divider"></div>
+      <div class="feature">
         <div class="row">
-          <div class="col-md-4">
-            <div class="chart">
-              <div class="quantity">
-                <span class="dollar">$</span>
-                <span class="price">12-25k</span>
-                <!-- <span class="period">/month</span> -->
-              </div>
-              <div class="plan-name">Lean Marketing Stack</div>
-              <div class="specs">
-                <div class="spec">
-                  <!-- <span class="variable">5</span> -->
-                  Segment.com schema
-                </div>
-                <div class="spec">
-                  <!-- <span class="variable">N</span> -->
-                  Nightly ETL extracts
-                </div>
-                <div class="spec">
-                  <!-- <span class="variable">Virtual</span> -->
-                  Lead nurturing/qualification
-                </div>
-                <div class="spec">
-                  <!-- <span class="variable">10</span> -->
-                   A/B testing infrastructure
-                </div>
-                <div class="spec">
-                  <!-- <span class="variable">1.0%</span> -->
-                  NPS Survey
-                </div>
-              </div>
-              <a class="btn-signup button-clear" href="signup.html">
-                <span>Contact Us</span>
-              </a>
+          <div class="col-md-6">
+            <div class="info">
+              <h4 class="mt-lg-5">You don't need to have great technical experience to use your product.</h4>
+              <p>
+                Whether you want to fill this paragraph with some text like I'm doing right now, this place
+                is perfect to describe some features or anything you want - React has a complete solution for you.
+              </p>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="chart chart--featured">
-              <div class="popular">Most popular</div>
-              <div class="quantity">
-                <span class="dollar">$</span>
-                <span class="price">45k</span>
-                <!-- <span class="period">/month</span> -->
-              </div>
-              <div class="plan-name">Ongoing</div>
-              <div class="specs">
-                <div class="spec">
-                  <span class="variable">15</span>
-                  team members
-                </div>
-                <div class="spec">
-                  <span class="variable">Digital</span>
-                  recurring billing
-                </div>
-                <div class="spec">
-                  <span class="variable">Virtual</span>
-                  online terminal
-                </div>
-                <div class="spec">
-                  <span class="variable">15</span>
-                  total products
-                </div>
-                <div class="spec">
-                  <span class="variable">0.5%</span>
-                  Transaction fee
-                </div>
-              </div>
-              <a class="btn-signup button-clear" href="signup.html">
-                <span>Start free trial</span>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="chart">
-              <div class="quantity">
-                <span class="dollar">$</span>
-                <span class="price">119</span>
-                <span class="period">/month</span>
-              </div>
-              <div class="plan-name">Maintenance</div>
-              <div class="specs">
-                <div class="spec">
-                  <span class="variable">Unlimited</span>
-                  team members
-                </div>
-                <div class="spec">
-                  <span class="variable">Digital</span>
-                  recurring billing
-                </div>
-                <div class="spec">
-                  <span class="variable">Virtual</span>
-                  online terminal
-                </div>
-                <div class="spec">
-                  <span class="variable">25</span>
-                  total products
-                </div>
-                <div class="spec">
-                  <span class="variable">No</span>
-                  Transaction fee
-                </div>
-              </div>
-              <a class="btn-signup button-clear" href="signup.html">
-                <span>Start free trial</span>
-              </a>
-            </div>
+          <div class="col-md-6 text-center">
+            <img src="images/feature3.png" class="img-fluid" alt="feature1" />
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <div class="slider-section">
+  <!-- <div class="features-grid-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 feature">
+          <img src="images/circle-icons/one-color/creditcard.png" alt="creditcard" />
+          <strong>Act locally, work globally</strong>
+          <p>You can work with international customers right out of the box while you can keep staying in your country.</p>
+        </div>
+        <div class="col-md-4 feature">
+          <img src="images/circle-icons/one-color/dev.png" alt="dev" />
+          <strong>Act globally, work as usual</strong>
+          <p>With some customization you can make this product apply to your branding guidelines and amaze your customers at the same time.</p>
+        </div>
+        <div class="col-md-4 feature">
+          <img src="images/circle-icons/one-color/globe.png" alt="globe" />
+          <strong>Develop once, run everywhere</strong>
+          <p>We don't impose any design restrictions, you are free to customize it as you see fit and it's easy to use.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 feature">
+          <img src="images/circle-icons/one-color/support.png" alt="support" />
+          <strong>Act globally, work as usual</strong>
+          <p>We're always happy to offer support if you happen to have any doubts about anything, if you need
+            some new stuff contact us.</p>
+        </div>
+        <div class="col-md-4 feature">
+          <img src="images/circle-icons/one-color/mail.png" alt="mail" />
+          <strong>Develop once, run everywhere</strong>
+          <p>We'll be adding some new stuff to make it even more awesome, if you have any idea please let us know.</p>
+        </div>
+        <div class="col-md-4 feature">
+          <img src="images/circle-icons/one-color/locked.png" alt="locked" />
+          <strong>Act locally, work globally</strong>
+          <p>This thing will work on any device, it has a very easy to understand documentation and is made with SASS.</p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- <div class="slider-section">
     <div class="container">
       <h3 class="header">Includes all pages that a complete theme should have</h3>
 
@@ -356,78 +392,46 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <div class="testimonials-section">
+  <!-- <div class="blog-showcase">
     <div class="container">
-      <h3 class="header">
-        Trusted by a lot businesses around the world:
-      </h3>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="testimonial">
-            <div class="quote">
-              I am just quoting some stuff but I am seriously happy about this product. Has a lot of powerful
-              features and is so easy to set up, I could stay customizing it day and night, it's just so much fun!
-              <div class="arrow-down">
-                <div class="arrow"></div>
-                <div class="arrow-border"></div>
+      <div class="header">
+        <h3>Showcasing some blog posts</h3>
+      </div>
+      <div class="posts">
+        <div class="row">
+          <div class="col-md-4">
+            <a class="pic" href="blogpost.html">
+              <img src="images/blog1.png" class="img-fluid" alt="blog1" />
+              <div class="bg">
+                <p>How to get your first 100 users</p>
               </div>
-            </div>
-            <div class="author">
-              <img src="images/testimonials/testimonial3.jpg" class="pic" alt="testimonial3" />
-              <div class="name">John McClane</div>
-              <div class="company">Microsoft</div>
-            </div>
+            </a>
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="testimonial">
-            <div class="quote">
-              This thing is one of those tools that everybody should be using. I really like it and with this ease to use, you can kickstart your projects and apps and just focus on your business!
-              <div class="arrow-down">
-                <div class="arrow"></div>
-                <div class="arrow-border"></div>
+          <div class="col-md-4">
+            <a class="pic" href="blogpost.html">
+              <img src="images/blog2.png" class="img-fluid" alt="blog2" />
+              <div class="bg">
+                <p>How to develop scalable Rails apps</p>
               </div>
-            </div>
-            <div class="author">
-              <img src="images/testimonials/testimonial2.jpg" class="pic" alt="testimonial2" />
-              <div class="name">Cardi B</div>
-              <div class="company">Atlantic Records</div>
-            </div>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a class="pic" href="blogpost.html">
+              <img src="images/blog3.png" class="img-fluid" alt="blog3" />
+              <div class="bg">
+                <p>Enjoy your life at the beach</p>
+              </div>
+            </a>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <div class="cta-section">
-    <p>
-      Start moving the needle!
-    </p>
-    <a href="contactus.html">
-      Contact Us
-    </a>
-  </div>
-
-  <div class="clients-section">
+  <div class="footer">
     <div class="container">
-      <h3>Our Customers</h3>
-      <p>
-        Our customers love us.
-      </p>
-      <div class="logos">
-        <img src="images/logos/google.png">
-        <img src="images/logos/facebook.png">
-        <img src="images/logos/apple.png">
-        <img src="images/logos/stripe.png">
-        <img src="images/logos/yahoo.png">
-      </div>
-    </div>
-  </div>
-
-  <div class="footer footer--light">
-    <!-- <div class="container">
       <div class="row">
         <div class="col-md-3 menu">
           <h3>Overview</h3>
@@ -507,10 +511,9 @@
           </a>
         </div>
       </div>
-
-    </div> -->
-    <div class="credits">
-      <p>Copyright © 2018. FoxGrowth</p>
+      <div class="credits">
+        <p>Copyright © 2019. React</p>
+      </div>
     </div>
   </div>
 </body>
