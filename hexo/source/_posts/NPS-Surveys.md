@@ -11,4 +11,4 @@ This leads to great unpleasantness for example being asked to give an NPS rating
 
 The flipside however, is to not use these tools, and simply ask the customer for NPS via your existing marketing tools with a Wufoo form but if you do this, you do not get all the nifty reporting that these tools offer:
 
-![Sample Image Added via Markdown](/images/nps.png)
+![Sample Image Added via Markdown](/blog/images/nps.png)
