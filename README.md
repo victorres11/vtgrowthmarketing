@@ -2,6 +2,7 @@
 marketing page for growth consulting webpage
 
 # Adding a new blog post
+(make sure you are in hexo directory for these instructions)
 1. Create a new post
 `$ hexo new "My New Post"`
 
