@@ -14,6 +14,7 @@ hexo/source/_posts/<title of post>.md
 
 4. Commit changes and push to github
 
+* Add any images to the hexo/source/images folder
 
 # To Delete a Blog Post
 1. Delete the post under source/_post folder
