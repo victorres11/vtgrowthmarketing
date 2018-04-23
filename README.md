@@ -21,3 +21,6 @@ hexo/source/_posts/<title of post>.md
 2. Run hexo clean to delete the database (db.json) and assets folder
 3. Run hexo generateto generate the new blog without your deleted post
 4. Run hexo deploy to deploy your blog
+
+# Original Template (to see available pages and docs)
+http://themereact.herokuapp.com/3.0/
