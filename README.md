@@ -24,3 +24,8 @@ hexo/source/_posts/<title of post>.md
 
 # Original Template (to see available pages and docs)
 http://themereact.herokuapp.com/3.0/
+
+# CSS changes
+Most changes are done in the scss/pages directory in the scss files.
+Make the necessary changes there and then run `gulp` from the home
+directory (or optionally `gulp watch` to have it run as changes are made)
