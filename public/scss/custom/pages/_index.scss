@@ -86,7 +86,7 @@
       @media (max-width: 767px) {
         font-size: 14px;
         padding: 12px 25px;
-        margin: 0px 15px 15px 0px;
+        //margin: 0px 15px 15px 0px;
       }
     }
   }
@@ -96,11 +96,6 @@
     top: -20px;
     left: 640px;
   }
-}
-
-.growthstack_icon {
-  padding-top: 15%;
-  padding-right: 20%;
 }
 
 .nps_screen {
@@ -203,6 +198,23 @@
         line-height: 23px;
         font-weight: 400;
       }
+    }
+  }
+}
+
+.features-section {
+  //background-color: red;
+  .growthstack_icon {
+    padding-top: 15%;
+    padding-right: 20%;
+    //background-color: orange;
+  }
+
+  @media (max-width: 992px) {
+    .growthstack_icon {
+      //background-color: blue;
+      padding-top: 0%;
+      padding-right: 0%;
     }
   }
 }
